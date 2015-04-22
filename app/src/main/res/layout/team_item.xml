@@ -28,7 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="SampleSample"
-            android:textColor="#252634"
+            android:textColor="#1494d6"
             android:textSize="13sp"
             />
             <!--android:layout_marginTop="10dp"-->

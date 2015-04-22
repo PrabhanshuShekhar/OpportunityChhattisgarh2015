@@ -25,7 +25,7 @@ public class ChhatisgarhInfoActivity extends OpportunityActivity {
 
     videoAdapter listAdapter;
     List<File> fileList;
-    String[] fileNames = { "NRDA Make In India Video", "NRDA Video","Chhattisgarh Video Profile"};
+    String[] fileNames = { "NRDA Make In India Video (262.7 MB)", "NRDA Video (377.7 MB)","Chhattisgarh Video Profile (205.4 MB)"};
     String[] url = {
             "https://s3-ap-southeast-1.amazonaws.com/opportunity-chhattisgarh-2015/NRDA+MAKE+IN+INDIA+video.mp4",
             "https://s3-ap-southeast-1.amazonaws.com/opportunity-chhattisgarh-2015/NRDA+Video.mp4",
@@ -69,10 +69,10 @@ public class ChhatisgarhInfoActivity extends OpportunityActivity {
         videoLV = (ListView) findViewById(R.id.videoLV);
         para1 = (TextView)findViewById(R.id.para1);
         para2 = (TextView)findViewById(R.id.para2);
-        para1.setTypeface(appController.getTypefaceOsLight());
-        para2.setTypeface(appController.getTypefaceOsLight());
+        para1.setTypeface(appController.getTypefaceOsRegular());
+        para2.setTypeface(appController.getTypefaceOsRegular());
         videoLV.setAdapter(listAdapter);
-        super.initViews(getResources().getDrawable(R.drawable.logo_new), "Contents", getResources().getDrawable(R.drawable.nasscom), null, null);
+        super.initViews(getResources().getDrawable(R.drawable.logo_new), "Information", getResources().getDrawable(R.drawable.nasscom_logo), null, null);
     }
 
 

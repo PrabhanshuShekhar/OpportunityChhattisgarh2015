@@ -18,7 +18,7 @@ public class DashBoardActivity extends OpportunityActivity {
     LinearLayout appNameTV;
     CustomGridAdapter adapter;
 
-    String menuItems[] = {"Schedules", "Participants", "Facilitators", "Informations", "Event Team", "Accomodation", "Transportation", "Documents"};
+    String menuItems[] = {"Schedule", "Participants", "Facilitator", "Information", "Event Team", "Accomodation", "Transportation", "Documents"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,7 +75,7 @@ public class DashBoardActivity extends OpportunityActivity {
     }
 
     private void initViews() {
-        super.initViews(getResources().getDrawable(R.drawable.logo_new), "Opportunity\nChhattisgarh 2015", getResources().getDrawable(R.drawable.nasscom), null, null);
+        super.initViews(getResources().getDrawable(R.drawable.logo_new), "Opportunity\nChhattisgarh 2015", getResources().getDrawable(R.drawable.nasscom_logo), null, null);
     }
 
 }

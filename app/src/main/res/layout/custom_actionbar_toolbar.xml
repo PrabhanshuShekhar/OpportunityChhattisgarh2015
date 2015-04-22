@@ -44,8 +44,8 @@
 
         <ImageButton
             android:id="@+id/right_IB"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
+            android:layout_width="46dp"
+            android:layout_height="13dp"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:onClick="onRight"

@@ -13,6 +13,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 import java.util.List;
 
 import oppotunitychhattisgarh2015.src.Model.Participant;
@@ -54,6 +56,7 @@ public class ParticipantAdapter extends ArrayAdapter {
                     .findViewById(R.id.nameTV);
             viewHolder.Icon = (ImageView) convertView.findViewById(R.id.iconIV);
             viewHolder.companyName = (TextView) convertView.findViewById(R.id.companyName);
+            viewHolder.desig = (TextView)convertView.findViewById(R.id.designation);
 //            viewHolder.phone = (TextView)convertView.findViewById(R.id.phone);
             viewHolder.email = (TextView) convertView.findViewById(R.id.email);
             if (participantList.get(position).getImageId() != 0)
@@ -61,6 +64,7 @@ public class ParticipantAdapter extends ArrayAdapter {
             // TODO : this typeface converts everything to capital
             viewHolder.name.setTypeface(((AppController) context.getApplicationContext()).getTypefaceOsRegular());
             viewHolder.companyName.setTypeface(((AppController) context.getApplicationContext()).getTypefaceAllRegular());
+            viewHolder.desig.setTypeface(((AppController) context.getApplicationContext()).getTypefaceAllRegular());
 //            viewHolder.phone.setTypeface(((AppController) context.getApplicationContext()).getTypefaceAllRegular());
             viewHolder.email.setTypeface(((AppController) context.getApplicationContext()).getTypefaceAllRegular());
             convertView.setTag(viewHolder);
@@ -72,6 +76,7 @@ public class ParticipantAdapter extends ArrayAdapter {
         viewHolder.companyName.setText(participantList.get(position).getCompanyName());
 //        viewHolder.phone.setText(participantList.get(position).getContactNo());
         viewHolder.email.setText(participantList.get(position).getEmail());
+        viewHolder.desig.setText(participantList.get(position).getDesignation());
 
 
         return convertView;
@@ -82,6 +87,7 @@ public class ParticipantAdapter extends ArrayAdapter {
         protected ImageView Icon;
         protected TextView companyName;
         //        protected  TextView phone;
+        protected  TextView desig;
         protected TextView email;
         protected TextView name;
 

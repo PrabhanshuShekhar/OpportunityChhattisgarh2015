@@ -4,11 +4,14 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 import oppotunitychhattisgarh2015.src.R;
+import oppotunitychhattisgarh2015.src.extra.AppController;
 
 public class AccomodationActivity extends OpportunityActivity {
-
+    TextView accomodationTV;
+    AppController appController;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,7 +21,10 @@ public class AccomodationActivity extends OpportunityActivity {
     }
 
     private void initViews() {
-        super.initViews(getResources().getDrawable(R.drawable.logo_new), "Accomodations", getResources().getDrawable(R.drawable.nasscom), null, null);
+        appController = (AppController) getApplicationContext();
+        accomodationTV = (TextView) findViewById(R.id.accomodationTV);
+        accomodationTV.setTypeface(appController.getTypefaceOsRegular());
+        super.initViews(getResources().getDrawable(R.drawable.logo_new), "Accomodation", getResources().getDrawable(R.drawable.nasscom_logo), null, null);
     }
 
 }

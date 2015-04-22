@@ -9,6 +9,15 @@ public class Participant {
     String contactNo;
     String companyName;
     int imageId;
+    String designation;
+
+    public String getDesignation() {
+        return designation;
+    }
+
+    public void setDesignation(String designation) {
+        this.designation = designation;
+    }
 
     public int getImageId() {
         return imageId;

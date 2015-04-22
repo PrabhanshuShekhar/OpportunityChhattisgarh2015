@@ -11,6 +11,14 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
 
+    <fragment
+        android:layout_below="@+id/actionBar_T"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/speakerfragment"
+        android:name="oppotunitychhattisgarh2015.src.Fragment.SpeakerFragment"
+        />
+
     <!--<TextView-->
         <!--android:layout_below="@+id/actionBar_T"-->
         <!--android:text="@string/hello_world"-->
@@ -18,39 +26,43 @@
         <!--android:layout_height="wrap_content" />-->
 
 
-    <TabHost
-        android:layout_marginTop="5dp"
-        android:layout_below="@+id/actionBar_T"
-        android:id="@android:id/tabhost"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    <!--<TabHost-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:layout_below="@+id/actionBar_T"-->
+        <!--android:id="@android:id/tabhost"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
 
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+        <!--<LinearLayout-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
 
-            <TabWidget
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:id="@android:id/tabs"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="0"/>
+            <!--<TabWidget-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:layout_marginRight="5dp"-->
+                <!--android:id="@android:id/tabs"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="0"/>-->
 
-            <FrameLayout
-                android:id="@android:id/tabcontent"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_weight="0"/>
+            <!--<FrameLayout-->
+                <!--android:id="@android:id/tabcontent"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_weight="0"/>-->
 
-            <FrameLayout
-                android:id="@+id/realtabcontent"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"/>
+            <!--<FrameLayout-->
+                <!--android:id="@+id/realtabcontent"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_weight="1"/>-->
 
-        </LinearLayout>
-    </TabHost>
+        <!--</LinearLayout>-->
+    <!--</TabHost>-->
+
+
+
+
 
 </RelativeLayout>

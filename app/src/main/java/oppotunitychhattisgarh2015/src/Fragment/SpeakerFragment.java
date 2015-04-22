@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import oppotunitychhattisgarh2015.src.Adapter.SpeakerListAdapter;
 import oppotunitychhattisgarh2015.src.R;
@@ -33,6 +34,9 @@ public class SpeakerFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.speaker_fragment, container, false);
+        TextView details = (TextView)view.findViewById(R.id.details);
+        details.setTypeface(appController.getTypefaceOsLight());
+        details.setText(appController.getSelectedEvent().getDetails());
         ListView speakersList = (ListView) view.findViewById(R.id.speakersLV);
         speakersList.setAdapter(adapter);
 

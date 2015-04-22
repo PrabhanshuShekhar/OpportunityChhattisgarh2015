@@ -31,7 +31,7 @@
         android:layout_marginLeft="20dp"
         android:layout_height="match_parent"
         android:layout_width="fill_parent"
-        android:layout_below="@+id/actionBar_T">
+        android:layout_below="@+id/transportTV">
 
         <ListView
             android:id="@+id/transporterLV"
