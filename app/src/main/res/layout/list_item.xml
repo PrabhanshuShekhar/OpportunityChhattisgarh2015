@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    android:background="@drawable/custom_bg_solid_white_radius"
+    >
+    <ImageView
+        android:id="@+id/iconIV"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:src="@drawable/session"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_toRightOf="@+id/iconIV"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:id="@+id/nameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SampleSample"
+            android:textColor="#252634"
+            android:textSize="13sp"
+            />
+
+        <TextView
+            android:paddingLeft="15dp"
+            android:id="@+id/timeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SampleSample"
+            android:textColor="#494848"
+            android:textSize="13sp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

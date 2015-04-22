@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    android:background="@drawable/custom_bg_solid_white_radius"
+    >
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/iconIV"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/user_placeholder"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/iconIV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <TextView
+            android:paddingLeft="15dp"
+            android:id="@+id/nameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SampleSample"
+            android:textColor="#252634"
+            android:textSize="13sp"
+            />
+            <!--android:layout_marginTop="10dp"-->
+
+        <TextView
+            android:paddingLeft="15dp"
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SampleSample"
+            android:textColor="#494848"
+            android:textSize="13sp"
+            android:inputType="phone"
+            android:clickable="true"
+            android:autoLink="phone"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

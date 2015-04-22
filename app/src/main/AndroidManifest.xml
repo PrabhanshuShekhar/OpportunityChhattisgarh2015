@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="oppotunitychhattisgarh2015.src" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".extra.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Activity.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Activity.OpportunityActivity"
+            android:label="@string/title_activity_opportunity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Activity.DashBoardActivity"
+            android:label="@string/title_activity_dash_board"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Activity.SchedulesActivity"
+            android:label="@string/title_activity_schedules" >
+        </activity>
+        <activity
+            android:name=".Activity.ScheduleDetailActivity"
+            android:label="@string/title_activity_schedule_detail"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Activity.ParticipantsActivity"
+            android:label="@string/title_activity_participants"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Activity.FacilitatorsActivity"
+            android:label="@string/title_activity_facilitators"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Activity.informationsActivity"
+            android:label="@string/title_activity_informations"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Activity.ChhatisgarhInfoActivity"
+            android:label="@string/title_activity_chhatisgarh_info"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Activity.TeamActivity"
+            android:label="@string/title_activity_team"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Activity.AccomodationActivity"
+            android:label="@string/title_activity_accomodation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Activity.TransportationsActivity"
+            android:label="@string/title_activity_transportation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Activity.DocumentsActivity"
+            android:label="@string/title_activity_documents" >
+        </activity>
+        <activity
+            android:name=".Activity.VideoPlayerActivity"
+            android:label="@string/title_activity_video_player"
+            android:screenOrientation="landscape">
+        </activity>
+    </application>
+
+</manifest>

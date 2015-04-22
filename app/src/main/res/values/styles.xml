@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="dimension">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="dimension2">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="dimension3">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- used in DAKDetailsActivity -->
+    <style name="LL" parent="dimension3">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:weightSum">5</item>
+    </style>
+
+    <style name="TV_left" parent="dimension2">
+        <item name="android:layout_weight">2</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TV_right" parent="dimension2">
+        <item name="android:layout_weight">3</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <!-- used in DAKDetailsActivity -->
+
+    <!-- used in VerifyPINActivity -->
+    <style name="B">
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:onClick">onNumber</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">#ffab55</item>
+    </style>
+    <!-- used in VerifyPINActivity -->
+
+</resources>

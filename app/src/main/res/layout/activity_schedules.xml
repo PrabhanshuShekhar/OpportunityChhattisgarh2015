@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="oppotunitychhattisgarh2015.src.Activity.SchedulesActivity">
+
+    <include
+        android:id="@+id/actionBar_T"
+        layout="@layout/custom_actionbar_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/schedulesLV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/actionBar_T"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="5dp">
+
+    </ListView>
+
+</RelativeLayout>

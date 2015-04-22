@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="oppotunitychhattisgarh2015.src.Activity.TransportationsActivity">
+
+
+    <include
+        android:id="@+id/actionBar_T"
+        layout="@layout/custom_actionbar_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView android:text="@string/transportations_message"
+        android:id="@+id/transportTV"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_below="@+id/actionBar_T"
+        android:lineSpacingExtra="1.5dp"
+        android:singleLine="false"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/actionBar_T">
+
+        <ListView
+            android:id="@+id/transporterLV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="5dp"
+            android:divider="@android:color/transparent"
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+
+</RelativeLayout>

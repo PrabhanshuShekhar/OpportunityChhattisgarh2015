@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout -->
+    <!--android:layout_width="120dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!-->-->
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/iconIV"-->
+        <!--android:src="@drawable/chhattisgarh_header"-->
+        <!--/>-->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:id="@+id/title_TV"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:padding="10dp"
+    android:text="SampleSample"
+    android:textColor="@android:color/white"
+    android:textSize="20sp" />
+
+<!--</RelativeLayout>-->
