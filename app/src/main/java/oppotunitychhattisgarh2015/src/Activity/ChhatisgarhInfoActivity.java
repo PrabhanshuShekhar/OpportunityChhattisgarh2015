@@ -25,7 +25,7 @@ public class ChhatisgarhInfoActivity extends OpportunityActivity {
 
     videoAdapter listAdapter;
     List<File> fileList;
-    String[] fileNames = { "NRDA Make In India Video (262.7 MB)", "NRDA Video (377.7 MB)","Chhattisgarh Video Profile (205.4 MB)"};
+    String[] fileNames = { "NRDA Make In India Video (35.1 MB)", "NRDA Video (44.3 MB)","Chhattisgarh Video Profile (133 MB)"};
     String[] url = {
             "https://s3-ap-southeast-1.amazonaws.com/opportunity-chhattisgarh-2015/NRDA+MAKE+IN+INDIA+video.mp4",
             "https://s3-ap-southeast-1.amazonaws.com/opportunity-chhattisgarh-2015/Nrda+Video.m4v",

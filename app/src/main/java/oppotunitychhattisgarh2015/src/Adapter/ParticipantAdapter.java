@@ -66,7 +66,7 @@ public class ParticipantAdapter extends ArrayAdapter {
             viewHolder.companyName.setTypeface(((AppController) context.getApplicationContext()).getTypefaceAllRegular());
             viewHolder.desig.setTypeface(((AppController) context.getApplicationContext()).getTypefaceAllRegular());
 //            viewHolder.phone.setTypeface(((AppController) context.getApplicationContext()).getTypefaceAllRegular());
-            viewHolder.email.setTypeface(((AppController) context.getApplicationContext()).getTypefaceAllRegular());
+//            viewHolder.email.setTypeface(((AppController) context.getApplicationContext()).getTypefaceAllRegular());
             convertView.setTag(viewHolder);
         } else {
             viewHolder = (ViewHolder) convertView.getTag();

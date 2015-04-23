@@ -37,344 +37,259 @@ public class ParticipantsActivity extends OpportunityActivity {
         appController = (AppController) getApplicationContext();
         participantsLV = (ListView) findViewById(R.id.participantLV);
         List<Participant> participantList = new ArrayList<>();
-        Participant participant1 = new Participant();
 
+
+        Participant participant1 = new Participant();
         participant1.setName("Mr. Mukesh Thumar");
-        participant1.setCompanyName("Parametrix Technologoies Pvt Ltd");
-        participant1.setContactNo("+919619555666");
-        participant1.setDesignation("");
-        participant1.setEmail("mukesh@parametrix.co.in");
+        participant1.setCompanyName("Paramatrix Technologies Pvt Ltd");
+        participant1.setDesignation("Managing Director");
+        participant1.setEmail("mukesh@paramatrix.co.in");
         participant1.setImageId(R.drawable.user_placeholder);
 
-        Participant participant2 = new Participant();
 
+        Participant participant2 = new Participant();
         participant2.setName("Mr. Abhijit Majumdar");
-        participant2.setCompanyName("Zensor Technologies Ltd.");
-        participant2.setContactNo("+919545516626");
-        participant2.setDesignation("");
-        participant2.setEmail("mukesh@parametrix.co.in");
+        participant2.setCompanyName("Zensar Technologies Ltd");
+        participant2.setDesignation("Associate Vice President & Head of Government Business");
+        participant2.setEmail("a.majumdar@zensar.com");
         participant2.setImageId(R.drawable.user_placeholder);
 
         Participant participant3 = new Participant();
-
         participant3.setName("Mr. Puneet Handa");
         participant3.setCompanyName("Godrej Infotech Ltd.");
-        participant3.setDesignation("");
-        participant3.setContactNo("+919899449241");
-        participant3.setEmail("puneet@godrej.com");
+        participant3.setDesignation("Assistant General Manager");
+        participant3.setEmail(" puneet@godrej.com");
         participant3.setImageId(R.drawable.user_placeholder);
 
-        Participant participant4 = new Participant();
 
+        Participant participant4 = new Participant();
         participant4.setName("Mr. Punit Jain");
-        participant4.setCompanyName("Nelito Systems Ltd.");
-        participant4.setContactNo("+9190046780109241");
-        participant4.setDesignation("");
-        participant4.setEmail("");
+        participant4.setCompanyName("Nelito Systems Ltd");
+        participant4.setDesignation("Chief Executive Officer");
+        participant4.setEmail("punit.jain@nelito.com");
         participant4.setImageId(R.drawable.user_placeholder);
 
-        Participant participant5 = new Participant();
 
+        Participant participant5 = new Participant();
         participant5.setName("Mr. Govind Chauhan");
-        participant5.setCompanyName("ABM Knowledgeware Ltd.");
-        participant5.setContactNo("+919324647052");
-        participant5.setDesignation("");
+        participant5.setCompanyName("ABM Knowledgeware Ltd");
+        participant5.setDesignation("Vice President");
         participant5.setEmail("gsc@abmindia.com");
         participant5.setImageId(R.drawable.user_placeholder);
 
-        Participant participant6 = new Participant();
 
+        Participant participant6 = new Participant();
         participant6.setName("Mr. Praveen Prakash");
-        participant6.setCompanyName("Epicenter Technologies Pvt Ltd.");
-        participant6.setContactNo("+919833133241");
-        participant6.setEmail("");
-        participant6.setDesignation("");
+        participant6.setCompanyName("Epicenter Technologies Pvt Ltd");
+        participant6.setDesignation("Manager Operations");
+        participant6.setEmail("praveen.prakash@Epicentertechnology.com");
         participant6.setImageId(R.drawable.user_placeholder);
 
-        Participant participant7 = new Participant();
 
-        participant7.setName("Mr. Sobhit K Varma");
-        participant7.setCompanyName("aurionPro Solutions Ltd.");
-        participant7.setContactNo("+919594441699");
-        participant7.setEmail("sobhit.verma@aurionpro.com");
-        participant7.setDesignation("");
+        Participant participant7 = new Participant();
+        participant7.setName("Mr. Shobhit K Varma");
+        participant7.setCompanyName("aurionPro Solutions Ltd");
+        participant7.setDesignation("Director – Sales , Government Solutions Group");
+        participant7.setEmail("shobhit.varma@aurionpro.com");
         participant7.setImageId(R.drawable.user_placeholder);
 
-        Participant participant8 = new Participant();
 
+        Participant participant8 = new Participant();
         participant8.setName("Mr. Munawar Bux");
-        participant8.setCompanyName("Larsen & Taubro infotech Ltd");
-        participant8.setContactNo("+919820035351");
-        participant8.setEmail("Munawar.Bux@Lntinfotech.com");
-        participant8.setDesignation("");
+        participant8.setCompanyName("Larsen & Toubro Infotech Ltd");
+        participant8.setDesignation("Head – System Integration and IMS – Services Cluster");
+        participant8.setEmail("Munawar.Bux@lntinfotech.com");
         participant8.setImageId(R.drawable.user_placeholder);
 
-        Participant participant9 = new Participant();
 
-        participant9.setName("Mr. V Chandrashekhar");
-        participant9.setCompanyName("Larsen & Taubro infotech Ltd");
-        participant9.setContactNo("");
-        participant9.setEmail("");
-        participant9.setDesignation("");
+        Participant participant9 = new Participant();
+        participant9.setName("Mr. V. Chandrashekhar");
+        participant9.setCompanyName("Larsen & Toubro Infotech Ltd");
+        participant9.setDesignation("Senior Vice President");
+        participant9.setEmail("V.Chandrashekar@lntinfotech.com");
         participant9.setImageId(R.drawable.user_placeholder);
 
-        Participant participant10 = new Participant();
 
+        Participant participant10 = new Participant();
         participant10.setName("Mr. Ravindra Shenai");
-        participant10.setCompanyName("HIGHBAR Technologies Ltd");
-        participant10.setContactNo("+919324611518");
+        participant10.setCompanyName("Highbar Technologies LTD");
+        participant10.setDesignation("National  Manager – Sales (GOVT & PSU)");
         participant10.setEmail("Ravindra.Shenai@highbartechnologies.com");
-        participant10.setDesignation("");
         participant10.setImageId(R.drawable.user_placeholder);
 
         Participant participant11 = new Participant();
-
         participant11.setName("Mr. Ashok Maheshwari");
-        participant11.setCompanyName("3i Infotech Ltd");
-        participant11.setContactNo("+919372404481");
-        participant11.setDesignation("");
+        participant11.setCompanyName("3i Infotech Ltd.");
+        participant11.setDesignation("Head of Operation, BPO");
         participant11.setEmail("ashok.maheshwari@3i-infotechbpo.com");
         participant11.setImageId(R.drawable.user_placeholder);
 
         Participant participant12 = new Participant();
-
         participant12.setName("Mr. Jayajothi Rajaram");
-        participant12.setCompanyName("Datavail Infotech Pvt Ltd");
-        participant12.setContactNo("+919833045292");
-        participant12.setEmail("jaya.rajaram@datavail.com");
-        participant12.setDesignation("");
+        participant12.setCompanyName("Datavail Infotech Pvt.Ltd");
+        participant12.setDesignation("Country Manager and Director, Technical");
+        participant12.setEmail("Jaya.Rajaram@datavail.com");
         participant12.setImageId(R.drawable.user_placeholder);
 
 
-        Participant participant13 = new Participant();
 
-        participant13.setName("Mr. Ninad Sonawane ");
-        participant13.setCompanyName("Datavail Infotech Pvt Ltd");
-        participant13.setContactNo("+919987109261");
+        Participant participant13 = new Participant();
+        participant13.setName("Mr. Ninad Sonawane");
+        participant13.setCompanyName("Datavail Infotech Pvt.Ltd");
+        participant13.setDesignation("Director- HR");
         participant13.setEmail("Ninad.Sonawane@datavail.com");
-        participant13.setDesignation("");
         participant13.setImageId(R.drawable.user_placeholder);
 
-        Participant participant14 = new Participant();
 
-        participant14.setName("Dr. Jaijit Bhattacharya");
-        participant14.setCompanyName("KPMG");
-        participant14.setContactNo("+919818213076");
-        participant14.setEmail("");
-        participant14.setDesignation("");
+
+        Participant participant14 = new Participant();
+        participant14.setName("Mr. Vinod Sood");
+        participant14.setCompanyName("Hughes Systique Pvt Ltd");
+        participant14.setDesignation("Managing Director");
+        participant14.setEmail("vinod@hsc.com");
         participant14.setImageId(R.drawable.user_placeholder);
 
-        Participant participant15 = new Participant();
 
-        participant15.setName("Mr. Vinod Sood");
-        participant15.setCompanyName("Hughes Systique Pvt Ltd");
-        participant15.setContactNo("+919811533033");
-        participant15.setDesignation("");
-        participant15.setEmail("vinod@hsc.com");
+        Participant participant15 = new Participant();
+        participant15.setName("Mr. Brahma Reddy Beeram");
+        participant15.setCompanyName("Oakton Global Technology Services Centre (India) Pvt Ltd");
+        participant15.setDesignation("Finance Controller");
+        participant15.setEmail("brahma.beeram@oakton.com.au");
         participant15.setImageId(R.drawable.user_placeholder);
 
-        Participant participant16 = new Participant();
 
-        participant16.setName("Mr. Brahma Reddy Beeram");
-        participant16.setCompanyName("Oakton Global Technology Services Center");
-        participant16.setContactNo("+919000143577");
-        participant16.setEmail("");
-        participant16.setDesignation("");
+        Participant participant16 = new Participant();
+        participant16.setName("Mr. Bharat Haladi");
+        participant16.setCompanyName("TATA Business Support Services Ltd.");
+        participant16.setDesignation("Vice President");
+        participant16.setEmail("bharat.haladi@tata-bss.com");
         participant16.setImageId(R.drawable.user_placeholder);
 
-        Participant participant17 = new Participant();
 
-        participant17.setName("Mr. Bharat Haladi");
-        participant17.setCompanyName("TATA Business Support Services Ltd.");
-        participant17.setContactNo("+919561871274");
-        participant17.setEmail("");
-        participant17.setDesignation("");
+        Participant participant17 = new Participant();
+        participant17.setName("Mr. Amit Khan");
+        participant17.setCompanyName("mjunction Services Ltd");
+        participant17.setDesignation("Chief of Technology");
+        participant17.setEmail("amit.khan@mjunction.in");
         participant17.setImageId(R.drawable.user_placeholder);
 
-        Participant participant18 = new Participant();
 
-        participant18.setName("Mr. Amit Khan");
-        participant18.setCompanyName("mjunction Services Ltd");
-        participant18.setContactNo("+919163348073");
-        participant18.setEmail("");
-        participant18.setDesignation("");
+        Participant participant18 = new Participant();
+        participant18.setName("Mr. Kaushal R. Vyas");
+        participant18.setCompanyName("DEV IT");
+        participant18.setDesignation("Head  Sales");
+        participant18.setEmail("Kaushal.vyas@devitpl.com");
         participant18.setImageId(R.drawable.user_placeholder);
 
 
         Participant participant19 = new Participant();
-        participant19.setName("Mr. Manish Parwani");
+        participant19.setName("Mr. Priyatam Dewangan");
+        participant19.setCompanyName("Omnium Technologies Private Limited");
+        participant19.setDesignation("Director");
+        participant19.setEmail("priyatam@iomnium.com");
         participant19.setImageId(R.drawable.user_placeholder);
-        participant19.setDesignation("DIRECTOR");
-        participant19.setCompanyName("THINKAGE SOLUTIONS");
-        participant19.setEmail("MANISH@THINKAGESOLUTIONS.COM");
 
         Participant participant20 = new Participant();
-        participant20.setName("Mr. Harpreet Dhody");
+        participant20.setName("Mr. Sriram Iyengar");
+        participant20.setCompanyName("Nextenders (India) Private Limited");
+        participant20.setDesignation("Chief Delivery Officer");
+        participant20.setEmail("sriram.iyengar@nextenders.com");
         participant20.setImageId(R.drawable.user_placeholder);
-        participant20.setDesignation("CEO");
-        participant20.setCompanyName("KONSOLE GROUP");
-        participant20.setEmail("AMAN@KONSOLEGROUP.COM");
 
         Participant participant21 = new Participant();
-        participant21.setName("Mr. Manish Agrawal");
+        participant21.setName("Mr. Rajesh Mathur");
+        participant21.setCompanyName("NIIT GIS");
+        participant21.setDesignation("Vice Chairman");
+        participant21.setEmail("RAJESH.MATHUR@esriindia.com");
         participant21.setImageId(R.drawable.user_placeholder);
-        participant21.setDesignation("DIRECTOR");
-        participant21.setCompanyName("TECHMENT TECHNOLOGY");
-        participant21.setEmail("MANISH@TECHMENT.IN");
+
 
         Participant participant22 = new Participant();
-        participant22.setName("Mr. Avinash Agrawal");
-        participant22.setImageId(R.drawable.user_placeholder);
+        participant22.setName("Mr. Pranav Kumar Suresh");
+        participant22.setCompanyName("Pranav Start up Village");
         participant22.setDesignation("CEO");
-        participant22.setCompanyName("AROSYS");
-        participant22.setEmail("AVINASHA@AROSYS.COM");
+        participant22.setEmail("pranav@startupvillage.in");
+        participant22.setImageId(R.drawable.user_placeholder);
+
 
         Participant participant23 = new Participant();
-        participant23.setName("Mr. Praveen Kanda");
+        participant23.setName("Mr. Sunil Chandiramani");
+        participant23.setCompanyName("Nyaka Advisory");
+        participant23.setDesignation("CEO");
+        participant23.setEmail("sunil.chandiramani@nykaadvisory.com");
         participant23.setImageId(R.drawable.user_placeholder);
-        participant23.setDesignation("VP");
-        participant23.setCompanyName("XYMOB");
-        participant23.setEmail("PRAVEEN.KANDA@XYMOB.COM");
+
 
         Participant participant24 = new Participant();
-        participant24.setName("Mr. Saurabh Maun");
+        participant24.setName("Mr. Manish Gupta");
+        participant24.setCompanyName("B K Group");
+        participant24.setDesignation("Managing Director");
+        participant24.setEmail("mgupta@bcbkltt.com");
         participant24.setImageId(R.drawable.user_placeholder);
-        participant24.setDesignation("COO");
-        participant24.setCompanyName("DEVELOPERBOX");
-        participant24.setEmail("SAURABH@DBITINDIA.COM");
+
 
         Participant participant25 = new Participant();
-        participant25.setName("Mr. Priyatam D");
+        participant25.setName("Mr. Ramesh Nair");
+        participant25.setCompanyName("BALCO-VEDANTA");
+        participant25.setDesignation("CEO");
+        participant25.setEmail("ramesh.nair@vedanta.co.in");
         participant25.setImageId(R.drawable.user_placeholder);
-        participant25.setDesignation("DIRECTOR");
-        participant25.setCompanyName("OMNIUM TECHNOLOGIES PVT. LTD.");
-        participant25.setEmail("PRIYATAM@IOMNIUM.COM");
+
 
         Participant participant26 = new Participant();
-        participant26.setName("Mr. Prakash Agrawal");
+        participant26.setName("Mr. R Chandrashekhar");
+        participant26.setCompanyName("NASSCOM");
+        participant26.setDesignation("President");
+        participant26.setEmail("rc@nasscom.in");
         participant26.setImageId(R.drawable.user_placeholder);
-        participant26.setDesignation("DIRECTOR");
-        participant26.setCompanyName("ICAN INFOSOFT");
-        participant26.setEmail("PRAKASH@ICANINFOSOFT.COM");
+
 
         Participant participant27 = new Participant();
-        participant27.setName("Mr. Sourabh Agrawal");
+        participant27.setName("Dr. Sandhya Chintala");
+        participant27.setCompanyName("NASSCOM");
+        participant27.setDesignation("Vice - President and Executive Director Sector Skill Council");
+        participant27.setEmail("sandhya@nasscom.in");
         participant27.setImageId(R.drawable.user_placeholder);
-        participant27.setDesignation("DIRECTOR FINANCE");
-        participant27.setCompanyName("AMICUS TECHNOLOGY");
-        participant27.setEmail("SOURABH_AGRAWAL@AMICUSGLOBAL.COM");
 
         Participant participant28 = new Participant();
-        participant28.setName("Mr. Sumit Ghosh");
+        participant28.setName("Mr. Rajiv Vaishnav");
+        participant28.setCompanyName("NASSCOM");
+        participant28.setDesignation("Vice - President");
+        participant28.setEmail("Rajiv@nasscom.in");
         participant28.setImageId(R.drawable.user_placeholder);
-        participant28.setDesignation("CEO");
-        participant28.setCompanyName("GLOBUSSOFT");
-        participant28.setEmail("SGHOSH606@GMAIL.COM");
+
 
         Participant participant29 = new Participant();
-        participant29.setName("Mr. Suryakant Pandey");
+        participant29.setName("Dr. Chetan Samant");
+        participant29.setCompanyName("NASSCOM");
+        participant29.setDesignation("Deputy Director");
+        participant29.setEmail("chetan@nasscom.in");
         participant29.setImageId(R.drawable.user_placeholder);
-        participant29.setDesignation("DIRECTOR");
-        participant29.setCompanyName("GLOBAL LOGIC");
-        participant29.setEmail("SKANTPANDEY@GMAIL.COM");
+
 
         Participant participant30 = new Participant();
-        participant30.setName("Mr. Dhiren Behera");
+        participant30.setName("Mr. Yudhsither Yadav");
+        participant30.setCompanyName("NASSCOM");
+        participant30.setDesignation("Deputy Manager");
+        participant30.setEmail("Yudhisther@nasscom.in");
         participant30.setImageId(R.drawable.user_placeholder);
-        participant30.setDesignation("DIRECTOR");
-        participant30.setCompanyName("STPI BHILAI");
-        participant30.setEmail("DHIREN.BEHERA@STPI.IN");
+
 
         Participant participant31 = new Participant();
-        participant31.setName("Mr. Deepak Likhmania");
+        participant31.setName("Ms. Chetna Desai");
+        participant31.setCompanyName("NASSCOM");
+        participant31.setDesignation("Sr. Associate");
+        participant31.setEmail("cdesai@nasscom.in");
         participant31.setImageId(R.drawable.user_placeholder);
-        participant31.setDesignation("G.M");
-        participant31.setCompanyName("WTERSIS CONSULTANCY");
-        participant31.setEmail("DKLIKHMANIA@GMAIL.COM");
+
 
         Participant participant32 = new Participant();
-        participant32.setName("Mr. Gajendra Chandrawanshi");
+        participant32.setName("Mr. Santosh Raorane");
+        participant32.setCompanyName("NASSCOM");
+        participant32.setDesignation("Sr. Associate");
+        participant32.setEmail("Santosh@nasscom.in");
         participant32.setImageId(R.drawable.user_placeholder);
-        participant32.setDesignation("DIRECTOR");
-        participant32.setCompanyName("SOFTBIT SOLUTION");
-        participant32.setEmail("GAJENDRA113@REDIFFMAIL.COM");
 
-        Participant participant33 = new Participant();
-        participant33.setName("Mr. Pankaj Agrawal");
-        participant33.setImageId(R.drawable.user_placeholder);
-        participant33.setDesignation("DIRECTOR");
-        participant33.setCompanyName("NILAXSOFT");
-        participant33.setEmail("PANKAJ@NILAXSOFT.COM");
-
-        Participant participant34 = new Participant();
-        participant34.setName("Mr. Abhinav Bharadwaj");
-        participant34.setImageId(R.drawable.user_placeholder);
-        participant34.setDesignation("LOCATION HEAD");
-        participant34.setCompanyName("MPHASIS");
-        participant34.setEmail("abhinav.b@mphasis.com");
-
-        Participant participant35 = new Participant();
-        participant35.setName("Mr. Sudorna Das");
-        participant35.setImageId(R.drawable.user_placeholder);
-        participant35.setDesignation("HR");
-        participant35.setCompanyName("IDEAS INC MGMT. PVT. LTD");
-        participant35.setEmail("HR@IIMPL.IN");
-
-        Participant participant36 = new Participant();
-        participant36.setName("Mr. Rahul Bhandari");
-        participant36.setImageId(R.drawable.user_placeholder);
-        participant36.setDesignation("Director");
-        participant36.setCompanyName("Univabs Solution pvt. Ltd.");
-        participant36.setEmail("rbhandari@univebs.com");
-
-        Participant participant37 = new Participant();
-        participant37.setName("Mr. Swapnil Nadkar");
-        participant37.setImageId(R.drawable.user_placeholder);
-        participant37.setDesignation("Director");
-        participant37.setCompanyName("Genesis Learning Initiatives");
-        participant37.setEmail("swapnil@genesislearning.in");
-
-        Participant participant38 = new Participant();
-        participant38.setName("Mr. Vipul Kataria");
-        participant38.setImageId(R.drawable.user_placeholder);
-        participant38.setDesignation("Proprietor");
-        participant38.setCompanyName("Virtual Clone");
-        participant38.setEmail("vipul@virtualassistant99.com");
-
-        Participant participant39 = new Participant();
-        participant39.setName("Mr. Roshan Agrawal");
-        participant39.setImageId(R.drawable.user_placeholder);
-        participant39.setDesignation("Director");
-        participant39.setCompanyName("Siddhast Intellectual property Innovations pvt. Ltd.");
-        participant39.setEmail("roshan@siddhast.com");
-
-        Participant participant40 = new Participant();
-        participant40.setName("Mr. Manas Pattnaik");
-        participant40.setImageId(R.drawable.user_placeholder);
-        participant40.setDesignation("Director");
-        participant40.setCompanyName("M/s Anthem Global");
-        participant40.setEmail("cd.panda@anthemgt.com");
-
-        Participant participant41 = new Participant();
-        participant41.setName("Mr. Pankaj Sarda");
-        participant41.setImageId(R.drawable.user_placeholder);
-        participant41.setDesignation("Director");
-        participant41.setCompanyName("Sarda Solutions Technologies Pvt. Ltd.");
-        participant41.setEmail("webtool@sstpl.co.in");
-
-        Participant participant42 = new Participant();
-        participant42.setName("Representative From");
-        participant42.setImageId(R.drawable.user_placeholder);
-        participant42.setDesignation("");
-        participant42.setCompanyName("Parichay Communication Technologies Pvt. Ltd.");
-        participant42.setEmail("info@thepctpl.in");
-
-        Participant participant43 = new Participant();
-        participant43.setName("Mr. Amit Rawat");
-        participant43.setImageId(R.drawable.user_placeholder);
-        participant43.setDesignation("Operations Head");
-        participant43.setCompanyName("AMICUS TECHNOLOGY");
-        participant43.setEmail("AMIT_RAWAT@AMICUSGLOBAL.COM");
 
 
         participantList.add(participant1);
@@ -410,17 +325,17 @@ public class ParticipantsActivity extends OpportunityActivity {
         participantList.add(participant30);
         participantList.add(participant31);
         participantList.add(participant32);
-        participantList.add(participant33);
-        participantList.add(participant34);
-        participantList.add(participant35);
-        participantList.add(participant36);
-        participantList.add(participant37);
-        participantList.add(participant38);
-        participantList.add(participant39);
-        participantList.add(participant40);
-        participantList.add(participant41);
-        participantList.add(participant42);
-        participantList.add(participant43);
+//        participantList.add(participant33);
+//        participantList.add(participant34);
+//        participantList.add(participant35);
+//        participantList.add(participant36);
+//        participantList.add(participant37);
+//        participantList.add(participant38);
+//        participantList.add(participant39);
+//        participantList.add(participant40);
+//        participantList.add(participant41);
+//        participantList.add(participant42);
+//        participantList.add(participant43);
 
 
 

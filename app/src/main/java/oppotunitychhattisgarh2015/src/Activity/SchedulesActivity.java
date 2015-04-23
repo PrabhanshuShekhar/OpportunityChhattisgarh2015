@@ -307,14 +307,14 @@ public class SchedulesActivity extends OpportunityActivity {
         List<Speaker> e11speakers = new ArrayList<>();
         Event e11 = new Event();
         e11.setName("Networking Lunch");
-        e11.setTime("01:45 PM – 02:45 PM");
+        e11.setTime("01:45 PM – 02:30 PM");
         e11.setDetails("Networking Lunch");
         e11.setSpeakers(e11speakers);
 
         List<Speaker> e12speakers = new ArrayList<>();
         Event e12 = new Event();
-        e12.setName("Tour");
-        e12.setTime("03:45 PM – 04:15 PM");
+        e12.setName("Tour of Naya Raipur");
+        e12.setTime("02:30 PM – 04:15 PM");
         e12.setDetails("Tour of Naya Raipur followed by Airport drop");
         e12.setSpeakers(e12speakers);
 
