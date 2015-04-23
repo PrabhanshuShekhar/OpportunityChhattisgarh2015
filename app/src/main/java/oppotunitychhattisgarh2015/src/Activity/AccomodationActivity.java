@@ -24,7 +24,7 @@ public class AccomodationActivity extends OpportunityActivity {
         appController = (AppController) getApplicationContext();
         accomodationTV = (TextView) findViewById(R.id.accomodationTV);
         accomodationTV.setTypeface(appController.getTypefaceOsRegular());
-        super.initViews(getResources().getDrawable(R.drawable.logo_new), "Accomodation", getResources().getDrawable(R.drawable.nasscom_last), null, null);
+        super.initViews(getResources().getDrawable(R.drawable.logo_new), "Accomodation", getResources().getDrawable(R.drawable.nasscomm_logo), null, null);
     }
 
 }

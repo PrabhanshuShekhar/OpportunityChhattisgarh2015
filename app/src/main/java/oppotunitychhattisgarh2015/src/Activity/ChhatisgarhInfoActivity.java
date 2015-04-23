@@ -72,7 +72,7 @@ public class ChhatisgarhInfoActivity extends OpportunityActivity {
         para1.setTypeface(appController.getTypefaceOsRegular());
         para2.setTypeface(appController.getTypefaceOsRegular());
         videoLV.setAdapter(listAdapter);
-        super.initViews(getResources().getDrawable(R.drawable.logo_new), "Information", getResources().getDrawable(R.drawable.nasscom_last), null, null);
+        super.initViews(getResources().getDrawable(R.drawable.logo_new), "Information", getResources().getDrawable(R.drawable.nasscomm_logo), null, null);
     }
 
 

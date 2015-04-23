@@ -106,7 +106,7 @@ public class DocumentsActivity extends OpportunityActivity {
         listAdapter = (FileListAdapter) new FileListAdapter(this, R.layout.element_department_text_center, fileList);
         pdfFileLV = (ListView) findViewById(R.id.pdfFileLV);
         pdfFileLV.setAdapter(listAdapter);
-        super.initViews(getResources().getDrawable(R.drawable.logo_new), "Documents", getResources().getDrawable(R.drawable.nasscom_last), null, null);
+        super.initViews(getResources().getDrawable(R.drawable.logo_new), "Documents", getResources().getDrawable(R.drawable.nasscomm_logo), null, null);
     }
 
 
