@@ -109,7 +109,7 @@ public class TeamActivity extends OpportunityActivity {
     }
 
     private void initViews() {
-        super.initViews(getResources().getDrawable(R.drawable.logo_new), "Teams", getResources().getDrawable(R.drawable.nasscom_last), null, null);
+        super.initViews(getResources().getDrawable(R.drawable.logo_new), "Event Team", getResources().getDrawable(R.drawable.nasscom_last), null, null);
     }
 
 }
