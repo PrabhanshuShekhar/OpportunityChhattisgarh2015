@@ -363,7 +363,7 @@ public class ParticipantsActivity extends OpportunityActivity {
         participant41.setEmail("webtool@sstpl.co.in");
 
         Participant participant42 = new Participant();
-        participant42.setName("Mr. Sir");
+        participant42.setName("Representative From");
         participant42.setImageId(R.drawable.user_placeholder);
         participant42.setDesignation("");
         participant42.setCompanyName("Parichay Communication Technologies Pvt. Ltd.");

@@ -16,7 +16,7 @@
     <string name="title_activity_team">TeamActivity</string>
     <string name="title_activity_accomodation">AccomodationActivity</string>
     <string name="title_activity_transportation">TransportationActivity</string>
-    <string name="taj_address">The Taj Gateway Hotel GE Road Raipur\nG E Road, Behind Magneto Mall \n Raipur, Chhattisgarh 492006,India\n\nTel: +91 771 6661000\nFax: +91 33 666111</string>
+    <string name="taj_address">The Taj Gateway Hotel GE Road Raipur\nG E Road, Behind Magneto Mall \n Raipur, Chhattisgarh 492006,India\n\nTel: +91 771 6661000\nFax: 91 33 6661111</string>
     <string name="title_activity_transportations">TransportationsActivity</string>
     <string name="title_activity_documents">DocumentsActivity</string>
     <string name="hello_world">Hello world!</string>
