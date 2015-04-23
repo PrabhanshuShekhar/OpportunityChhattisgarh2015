@@ -359,7 +359,7 @@ public class SchedulesActivity extends OpportunityActivity {
     }
 
     private void initViews() {
-        super.initViews(getResources().getDrawable(R.drawable.logo_new), "Schedule", getResources().getDrawable(R.drawable.nasscom_logo),null,null);
+        super.initViews(getResources().getDrawable(R.drawable.logo_new), "Schedule", getResources().getDrawable(R.drawable.nasscom_last),null,null);
     }
 
 
