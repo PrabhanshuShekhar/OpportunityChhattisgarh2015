@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context="oppotunitychhattisgarh2015.src.Activity.ChhatisgarhInfoActivity">
+    tools:context="Credible_CG.src.Activity.ChhatisgarhInfoActivity">
 
     <include
         android:id="@+id/actionBar_T"

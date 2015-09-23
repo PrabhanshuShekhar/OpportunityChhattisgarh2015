@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ViSiOn CG</string>
+    <string name="app_name">Credible CG</string>
     <string name="transportations_message">Pick and drop facility is arranged between Airport and The Taj Gateway Hotel. Bus will be available at Hotel for Naya Raipur Tour.\n\nPlease contact the person below for any other transport related queries:</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_login">LoginActivity</string>
@@ -20,6 +20,7 @@
     <string name="title_activity_transportations">TransportationsActivity</string>
     <string name="title_activity_documents">DocumentsActivity</string>
     <string name="hello_world">Hello world!</string>
+    <string name="download_link"><u>http://goo.gl/JOd13W</u></string>
     <string name="title_activity_video_player">VideoPlayerActivity</string>
     <string name="info_para1">Chhattisgarh is centrally located and well connected with rest of the country through road, rail and air. Raipur is the capital and the largest city, very Cosmopolitan in nature having Unique Knowledge Hub – IIM, IIIT, NIT, and AIIMS.  The state is rich in mineral reserves, Land &amp; Water, and one of the top states having surplus power extending excellent industrial climate for nurturing businesses.</string>
     <string name="info_para2">New Statehood has given the opportunity to establish a new capital called Naya Raipur, India’s 21st Century smart city. A wide range of incentives have been announced to promote businesses under its Industrial/Electronics &amp; IT Policy. The state has recognized Nurturing IT Talent by setting up of a stimulating Incubation/Startup Environment and Policy Support as the key enablers for the growth of the IT ecosystem within the state.</string>

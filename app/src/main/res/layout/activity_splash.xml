@@ -38,7 +38,7 @@
     <TextView
         android:layout_below="@+id/welcomeTV"
         android:layout_marginTop="20dp"
-        android:text="Please note the registration starts at 9:30 AM at pre-function area of Taj - The Gateway Hotel"
+        android:text="Opportunity Chhattisgarh -  Ranked 4th in 'Ease Of Doing Business', World Bank Report, 2015"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"

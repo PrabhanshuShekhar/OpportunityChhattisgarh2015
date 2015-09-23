@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context="oppotunitychhattisgarh2015.src.Activity.ScheduleDetailActivity">
+    tools:context="Credible_CG.src.Activity.ScheduleDetailActivity">
 
 
     <include
@@ -16,7 +16,7 @@
         android:layout_width="fill_parent"
         android:layout_height="match_parent"
         android:id="@+id/speakerfragment"
-        android:name="oppotunitychhattisgarh2015.src.Fragment.SpeakerFragment"
+        android:name="credible_CG.src.Fragment.SpeakerFragment"
         />
 
     <!--<TextView-->

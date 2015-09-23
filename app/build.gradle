@@ -1,11 +1,18 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'motifworks'
+            keyPassword 'motifworks'
+            storeFile file('/home/prabhanshu/Desktop/androidKeysore.jks')
+            storePassword 'motifworks'
+        }
+    }
     compileSdkVersion 21
     buildToolsVersion "21.1.2"
-
     defaultConfig {
-        applicationId "oppotunitychhattisgarh2015.oppotunitychhattisgarh2015"
+        applicationId "oppotunitychhattisgarh2015.credible_CG"
         minSdkVersion 15
         targetSdkVersion 21
         versionCode 6
@@ -15,6 +22,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
         }
     }
 }

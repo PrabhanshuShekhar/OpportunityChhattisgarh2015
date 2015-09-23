@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/eventName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NASSCOM event was held on 24th April 2014 , For more details please download the mobile App for the event from the link below :"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="22sp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="@string/download_link"/>
+
+
+
+</RelativeLayout>

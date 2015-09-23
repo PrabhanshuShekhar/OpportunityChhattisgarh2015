@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context="oppotunitychhattisgarh2015.src.Activity.AccomodationActivity">
+    tools:context="Credible_CG.src.Activity.AccomodationActivity">
 
     <include
         android:id="@+id/actionBar_T"
@@ -22,7 +22,7 @@
             android:scaleType="fitXY"
             android:layout_gravity="center_horizontal"
             android:src="@drawable/raipur_taj"/>
-        
+
         <TextView
             android:id="@+id/accomodationTV"
             android:layout_margin="20dp"
